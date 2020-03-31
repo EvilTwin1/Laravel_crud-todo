@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ToDoRequest;
 use App\ToDo;
 use Illuminate\Http\Request;
+
 
 class ToDoController extends Controller
 {
@@ -16,12 +18,8 @@ class ToDoController extends Controller
     }
 
 
-    public function store(Request $request)
+    public function store(ToDoRequest $request)
     {
-        $request->validate([
-            'title' => 'required|min:3|max:255'
-        ]);
-
         ToDo::create($request->all());
 
         return redirect('/')->with('message', 'ToDo was created successfully');
