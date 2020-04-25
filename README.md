@@ -13,4 +13,4 @@
 5. Реализация кастомных ошибок
 
 # Пощупать руками
-  http://lit-falls-30979.herokuapp.com/
+  https://todo-lms.herokuapp.com/
