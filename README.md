@@ -1,16 +1,17 @@
 # Instalation
-1. docker compose up
-2. composer install
-3. php artisan migrate
-4. php artisan db:seed
+```
+ docker compose up
+ composer install
+ php artisan migrate
+ php artisan db:seed
+```
+## Design feature
 
-# Особенности проекта
+- Реализация валидации форм
+- Реализация CRUD
+- Реализация уведомлений о добавлении/удалении
+- Реализация фильтрации по критерию
+- Реализация кастомных ошибок
 
-1. Реализация валидации форм
-2. Реализация CRUD
-3. Реализация уведомлений о добавлении/удалении
-4. Реализация фильтрации по критерию
-5. Реализация кастомных ошибок
-
-# Пощупать руками
+## Demo
   https://todo-lms.herokuapp.com/
